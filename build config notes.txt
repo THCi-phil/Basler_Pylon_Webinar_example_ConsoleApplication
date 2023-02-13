@@ -1,0 +1,9 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	LNK1104	cannot open file 'GCBase_MD_VC141_v3_1_Basler_pylon.lib'	Basler_Pylon_Webinar_example_ConsoleApplication	C:\Users\phil\source\repos\Basler_Pylon_Webinar_example_ConsoleApplication\Basler_Pylon_Webinar_example_ConsoleApplication\LINK	1	
+
+
+c/C++>General>$(PYLON_DEV_DIR)\include;%(AdditionalIncludeDirectories)
+
+Linker>General>Additional Library Directories
+$(PYLON_DEV_DIR)\lib\x64;$(PYLON_LINK64);%(AdditionalLibraryDirectories)
+
